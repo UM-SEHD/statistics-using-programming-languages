@@ -1,7 +1,7 @@
 {
   "name": "supl-front",
   "version": "0.1.0",
-  "home": "https://um-sehd.github.io/statistics-using-programming-languages/",
+  "homepage": "https://um-sehd.github.io/statistics-using-programming-languages/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
