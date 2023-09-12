@@ -1,8 +1,8 @@
-const Week4 = () => {
+const Week5 = () => {
     return(
       <box >
         <iframe 
-        src="https://um-sehd.github.io/EPS702/week4.html" 
+        src="https://um-sehd.github.io/EPS702/week5.html" 
         width={'100%'} 
         height={'100%'}
         position={'absolute'}
@@ -13,4 +13,4 @@ const Week4 = () => {
     );
 }
 
-export default Week4;
+export default Week5;

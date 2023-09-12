@@ -3,13 +3,13 @@ import { Routes, Route } from "react-router-dom";
 import { ColorModeContext,useMode } from "./Themes";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import Home from "./scenes/home";
-import QuantMeth from "./scenes/quantMeth"
+import QuantMeth from "./scenes/quantMeth";
 import BarSide from "./scenes/global/BarSide";
 import Topbar from "./scenes/global/Topbar";
 import Week1 from "./scenes/quantMeth/week1";
 import Week2 from "./scenes/quantMeth/week2";
 import Week4 from "./scenes/quantMeth/week4";
-import Week5 from "./scenes/quantMeth/week3";
+import Week5 from "./scenes/quantMeth/week5";
 
 
 function App() {

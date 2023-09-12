@@ -4,9 +4,6 @@ import { ColorModeContext, tokens } from "../../Themes"
 import InputBase from "@mui/material/InputBase";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
-import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 
 const Topbar = () => {
@@ -16,7 +13,7 @@ const Topbar = () => {
 
   return (
     <Box display="flex" justifyContent="space-between" p={2}>
-      {/* SEARCH BAR */}
+      {/* SEARCH BAR 
       <Box
         display="flex"
         backgroundColor={colors.greenAccent[800]}
@@ -27,6 +24,7 @@ const Topbar = () => {
           <SearchIcon />
         </IconButton>
       </Box>
+      */}
 
       {/* ICONS */}
       <Box display="flex">
@@ -36,15 +34,6 @@ const Topbar = () => {
           ) : (
             <LightModeOutlinedIcon />
           )}
-        </IconButton>
-        <IconButton>
-          <NotificationsOutlinedIcon />
-        </IconButton>
-        <IconButton>
-          <SettingsOutlinedIcon />
-        </IconButton>
-        <IconButton>
-          <PersonOutlinedIcon />
         </IconButton>
       </Box>
     </Box>
