@@ -33,7 +33,7 @@ function App() {
             <main className="content">
               
             <Topbar setIsSidebar={setIsSidebar}/>
-            <Routes>
+            <Routes basename="/statistics-using-programming-languages">
               <Route path="*" element={<Home />} />
               <Route path="/quantMeth" element={<QuantMeth />} />
               <Route path="/eps700" element={<EPS700 />} />
