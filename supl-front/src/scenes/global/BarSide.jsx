@@ -154,6 +154,14 @@ const BarSide = () => {
                   />
                   <Divider/>
                   <Item
+                    title="Week 3"
+                    to="/week3"
+                    //icon={<GroupsIcon />}
+                    selected={selected}
+                    setSelected={setSelected}
+                  />
+                  <Divider/>
+                  <Item
                     title="Week 4"
                     to="/week4"
                     //icon={<GroupsIcon />}
@@ -168,6 +176,15 @@ const BarSide = () => {
                     selected={selected}
                     setSelected={setSelected}
                   />
+                  <Divider/>
+                  <Item
+                    title="Week 6"
+                    to="/week6"
+                    //icon={<GroupsIcon />}
+                    selected={selected}
+                    setSelected={setSelected}
+                  />
+                  
               </AccordionDetails>
             </Accordion>
             <Item
