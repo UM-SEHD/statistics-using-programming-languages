@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/statistics-using-programming-languages/static/css/main.7c832c8c.css",
-    "main.js": "/statistics-using-programming-languages/static/js/main.da3ba39e.js",
+    "main.js": "/statistics-using-programming-languages/static/js/main.9afbfc9d.js",
     "index.html": "/statistics-using-programming-languages/index.html",
     "main.7c832c8c.css.map": "/statistics-using-programming-languages/static/css/main.7c832c8c.css.map",
-    "main.da3ba39e.js.map": "/statistics-using-programming-languages/static/js/main.da3ba39e.js.map"
+    "main.9afbfc9d.js.map": "/statistics-using-programming-languages/static/js/main.9afbfc9d.js.map"
   },
   "entrypoints": [
     "static/css/main.7c832c8c.css",
-    "static/js/main.da3ba39e.js"
+    "static/js/main.9afbfc9d.js"
   ]
 }
