@@ -66,7 +66,7 @@ const BarSide = () => {
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
             style={{
               margin: "10px 0 20px 0",
-              color: colors.grey[500],
+              color: colors.grey[100],
             }}
           >
             {!isCollapsed && (
@@ -77,7 +77,7 @@ const BarSide = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[500]}>
-                  DOCS
+                  NOTES
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -97,14 +97,14 @@ const BarSide = () => {
             
             <Typography
               variant="h6"
-              color={colors.primary[1000]}
+              color={colors.grey[500]}
               sx={{ m: "15px 0 5px 20px" }}
             >
               Courses
             </Typography>
             <Accordion
             sx = {{
-              backgroundColor: colors.primary[1000]
+              backgroundColor: 'transparent'
             }}
             >
               <AccordionSummary
